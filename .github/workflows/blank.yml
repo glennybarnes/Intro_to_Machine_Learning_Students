@@ -53,8 +53,8 @@ jobs:
           #rm -rf
           cp -r Intro_to_Machine_Learning_Full_Repo/* .
           rm -f SAMP_SOL*
-          rm -f student_work
-          rm -f old
+          rm -f student_work/*
+          rm -f old/*
           #rm -f generate_tests.ipynb
           #ls -la workbooks
 
